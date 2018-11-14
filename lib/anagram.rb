@@ -2,13 +2,17 @@
 
 class Anagram
   
-  attr_accessor :detector
   
-  def initialize(detector)
-    @detector = detector
+  
+  attr_accessor :words
+  
+  def initialize(words)
+    @words = words
   end
   
-  def self.match(detector)
+  def self.match(words)
+    
+    words
     
 
 
