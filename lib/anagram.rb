@@ -12,7 +12,7 @@ class Anagram
   
   def self.match(words)
     
-    words.split.detect{ |w| 
+    words.split.detect{ |w| w.sort == w.sort}
     
 
 
