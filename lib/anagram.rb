@@ -13,7 +13,9 @@ class Anagram
   def self.match(words)
     
     words.each do |w|
-      w.split()ort  == w.s
+      w.split("").sort == @words.split("").sort
+    end
+  end
     
 
 
