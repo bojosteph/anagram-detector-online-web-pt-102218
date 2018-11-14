@@ -13,7 +13,7 @@ class Anagram
   def self.match(words)
     
     words.each do |w|
-      w.split.sort  == w.s
+      w.split()ort  == w.s
     
 
 
